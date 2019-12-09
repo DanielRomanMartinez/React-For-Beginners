@@ -13,7 +13,7 @@ class StorePicker extends React.Component {
         this.props.history.push(`store/${storeName}`);
 
         console.log('Going to Store');
-    }
+    };
     render(){
         console.log(this);
         return (
@@ -23,7 +23,7 @@ class StorePicker extends React.Component {
                 <button type={"submit"} onClick={this.handleClick}>Visit store</button>
             </form>
         )
-    }
+    };
 }
 
 export default StorePicker; // Export component
